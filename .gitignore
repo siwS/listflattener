@@ -1,0 +1,27 @@
+# Created by http://www.gitignore.io
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+project/boot/
+project/plugins/project/
+project/target
+
+# IntelliJ Specific
+.idea/
+project/project/
+src/main/java/
+src/main/resources/
+src/main/scala-2.10/
+src/main/scala-2.12/
+src/test/java/
+src/test/scala-2.10/
+src/test/scala-2.12/
